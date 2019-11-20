@@ -5,12 +5,13 @@ from tinytag import TinyTag
 videos = []
 duration = 0
 
-# Regex for mp4
-mp4Regex = re.compile(r'.(mp4|avi|webm|flv$)')
+# Regex for videos
+videoRegex = re.compile(r'.(mp4|avi|webm|flv$)')
 
 # Start
 print('Please enter a directory(absolute path): ')
 directory = input()
+print(directory)
 if (os.path.exists(directory)):
     os.chdir(directory)
 else:
@@ -22,7 +23,7 @@ content = os.listdir('.')
 
 # Push into the videos array the absolute path for every video
 for file in content:
-    if (mp4Regex.search(file)):
+    if (videoRegex.search(file)):
         video = os.path.join(os.path.abspath('.'), file)
         videos.append(video)
 

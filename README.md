@@ -1,8 +1,10 @@
 # Micro-Tasks Automation 💻✔
-## ● calctime.py
-
-
-
+## ● watchtime.py
+Have you ever had a folder with a bunch of videos in it and wondered how many hours of watch time do they add up?
+This simple script does exactly that.<br>
+Just insert the **absolute path** of the folder you want to calculate when the program asks you to.<br>
+e.g. `C:\Users\Username\Videos\Captures`
+  
 ## ● deletesubs.py
 
 

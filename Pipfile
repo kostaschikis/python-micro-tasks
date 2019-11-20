@@ -7,7 +7,6 @@ verify_ssl = true
 
 [packages]
 tinytag = "*"
-pyinstaller = "*"
 
 [requires]
 python_version = "3.8"
