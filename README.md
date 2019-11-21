@@ -3,7 +3,7 @@ I made these programs just for my personal use to automate some boring stuff but
 
 ## ● watchtime.py 📄
 Have you ever had a folder with a bunch of videos in it and wondered how many hours of watch time do they add up?<br>
-This simple script does exactly that.<br>
+This simple script does exactly that. It calculates the watch time of all videos combined within a directory<br>
 Just insert the **absolute path** of the folder you want to calculate when the program asks you to.<br>
 e.g. `C:\Users\Username\Videos\Captures`<br>
 Used [TinyTag](https://github.com/devsnd/tinytag) to extract video metadata    
