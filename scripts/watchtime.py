@@ -6,12 +6,11 @@ videos = []
 duration = 0
 
 # Regex for videos
-videoRegex = re.compile(r'.(mp4|avi|webm|flv$)')
+videoRegex = re.compile(r'.mp4$|avi$|webm$|flv$')
 
 # Start
 print('Please enter a directory(absolute path): ')
 directory = input()
-print(directory)
 if (os.path.exists(directory)):
     os.chdir(directory)
 else:
